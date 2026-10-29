@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>行舟</title>
+  <meta name="description" content="行舟 — a small personal site, now live on GitHub Pages.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f3ee;
+      --ink: #1c1915;
+      --muted: #6b645c;
+      --line: #e4ddd4;
+      --accent: #2f5d50;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #161412;
+        --ink: #f3efe8;
+        --muted: #a39b92;
+        --line: #2c2824;
+        --accent: #8fbfae;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body {
+      font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Songti SC", "Noto Serif SC", serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.6;
+    }
+    main {
+      max-width: 36rem;
+      margin: 0 auto;
+      padding: 18vh 1.5rem 4rem;
+    }
+    p.mark {
+      margin: 0 0 1.5rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      font-size: 0.72rem;
+      color: var(--accent);
+    }
+    h1 {
+      margin: 0 0 0.75rem;
+      font-weight: 500;
+      font-size: clamp(2.75rem, 8vw, 4.25rem);
+      letter-spacing: 0.08em;
+      line-height: 1.1;
+    }
+    .en {
+      margin: 0 0 1.75rem;
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      font-size: 0.95rem;
+      letter-spacing: 0.04em;
+      color: var(--muted);
+    }
+    p { margin: 0 0 0.9rem; }
+    footer {
+      margin-top: 2.5rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--line);
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="mark">Live</p>
+    <h1>行舟</h1>
+    <p class="en">Xingzhou · a small boat on the water</p>
+    <p>这个站点已经上线。这是一页安静的个人主页，停在 GitHub Pages 上。</p>
+    <p>This site is live. A quiet personal landing page, published with GitHub Pages.</p>
+    <footer>
+      <a href="https://github.com/a931569399-gif/a931569399-gif.github.io">a931569399-gif.github.io</a>
+    </footer>
+  </main>
+</body>
+</html>
